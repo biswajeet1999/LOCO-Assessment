@@ -14,7 +14,6 @@ const createTransaction = (values) => {
 
 const fetchTransactions = (selectColumns, whereClause) => {
   const sql = `SELECT ${selectColumns} FROM transactions ${whereClause}`;
-  console.log(sql);
   return new Promise((resolve, reject) => {
     db.query(sql, (err, result) => {
       if (err) {
