@@ -8,7 +8,7 @@ const createTransaction = async (req, res) => {
       ...req.params,
     });
     const result = await transactionUtil.createTransaction(transactionData);
-    return res.status(201).json(transactionData);
+    return res.status(201).json({ status: "ok" });
   } catch (err) {
     console.log("Something went wrong while creating transaction", err);
     return res.status(400).json({ error: err });
