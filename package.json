@@ -1,0 +1,26 @@
+{
+  "name": "loco-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biswajeet1999/LOCO-Assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biswajeet1999/LOCO-Assessment/issues"
+  },
+  "homepage": "https://github.com/biswajeet1999/LOCO-Assessment#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mysql": "^2.18.1"
+  }
+}
